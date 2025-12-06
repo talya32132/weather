@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="path/to/DS-Digital-Regular.ttf">
+    <link rel="stylesheet" type="text/css" href="path/to/DS-Digital-Bold.ttf">
+    <link rel="stylesheet" href="citys.css">
+    <script defer src="weather.js"></script>
+    <title>Weather Forecast</title>
+
+</head>
+<body class="centeredFlex">
+    <h1>Weather Forecast</h1>
+    <div>
+        Select a Country:
+        <select id="country" name="country" onchange="citySelected()">
+            <option value="" selected disabled>select a country...</option>
+        </select>
+        Select a City:
+        <select id="city" name="city" onchange="weatherSelected()">
+            <option value="" selected disabled>select a city...</option>
+        </select>
+        </div>
+    </body>
+    </html>

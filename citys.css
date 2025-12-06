@@ -1,0 +1,59 @@
+.centeredFlex {
+    display: flex;
+    align-items: center; 
+}
+
+* { box-sizing: border-box; }
+a { text-decoration: none; }
+
+body {
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button{
+    border: 0px solid;
+}
+
+.choicesContiner{
+    width: 50%;
+    height: 10%;
+    margin-top: 5%;
+    border: 1px black solid;
+}
+
+.border{
+    border: 3px solid black;
+    margin-top: 1%;
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.cardBorder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    border: 2px solid black;
+    margin: 0.5%;
+    width: 11%;
+    height: 40%;
+}
+
+/*.weather-card {
+    border: 2px solid black;
+    margin: 0.5%;
+    width: 15%;
+    height: 40%;
+}*/
